@@ -14,3 +14,12 @@ items.forEach((item) => {
     item.classList.toggle("trail");
   });
 });
+
+var gridSquares = 0;
+const gridSize = document.querySelector("#grid-size");
+gridSize.addEventListener("click", () => {
+  gridSquares = parseInt(prompt("Enter the grid dimension "));
+  while (gridSquares > 100 || isNaN(gridSquares)) {
+    gridSquares = parseInt(prompt("Enter the grid dimension "));
+  }
+});
