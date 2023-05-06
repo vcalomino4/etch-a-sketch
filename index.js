@@ -5,3 +5,12 @@ for (i = 0; i < 255; i++) {
   div.classList.add("item");
   mainContainer.appendChild(div);
 }
+
+const items = document.querySelectorAll(".item");
+console.log(items);
+
+items.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    item.classList.toggle("trail");
+  });
+});

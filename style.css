@@ -17,3 +17,7 @@ body {
   height: 30px;
   border: 1px solid black;
 }
+
+.trail {
+  background-color: darkcyan;
+}
