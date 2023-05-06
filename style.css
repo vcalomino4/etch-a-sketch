@@ -4,15 +4,22 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 100px;
 }
 
 #grid-size {
-  background-color: white;
+  background-color: black;
+  color: white;
   padding: 10px;
   border: none;
   border-bottom: 1px solid black;
 }
 .container {
+  background-color: whitesmoke;
   margin: 30px;
   border: 1px solid black;
   width: 480px;
@@ -22,9 +29,8 @@ body {
 }
 
 .item {
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
+  margin: 0;
+  padding: 0;
 }
 
 .trail {
